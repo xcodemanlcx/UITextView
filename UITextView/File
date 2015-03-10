@@ -1,0 +1,8 @@
+1   a、textview限制输入最大长度；
+    b、汉字算一个字或者两个字
+*ViewController;
+
+2、带textview输入框的键盘；
+*ViewController1；
+
+3、

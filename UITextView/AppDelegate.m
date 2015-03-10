@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "ViewController1.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[ViewController1 alloc] init];
+    
     return YES;
 }
 

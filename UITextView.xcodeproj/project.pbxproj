@@ -14,6 +14,8 @@
 		1834D42F1A02098700789112 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1834D42E1A02098700789112 /* Images.xcassets */; };
 		1834D4321A02098700789112 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1834D4301A02098700789112 /* LaunchScreen.xib */; };
 		1834D43E1A02098700789112 /* UITextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834D43D1A02098700789112 /* UITextViewTests.m */; };
+		1834D4811A0258EF00789112 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834D4801A0258EF00789112 /* ViewController1.m */; };
+		185B573C1AAEE0B900CBB047 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 185B573B1AAEE0B900CBB047 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		1834D4371A02098700789112 /* UITextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1834D43C1A02098700789112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1834D43D1A02098700789112 /* UITextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewTests.m; sourceTree = "<group>"; };
+		1834D47F1A0258EF00789112 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		1834D4801A0258EF00789112 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		185B573B1AAEE0B900CBB047 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,10 @@
 				1834D4261A02098700789112 /* AppDelegate.m */,
 				1834D4281A02098700789112 /* ViewController.h */,
 				1834D4291A02098700789112 /* ViewController.m */,
+				1834D47F1A0258EF00789112 /* ViewController1.h */,
+				1834D4801A0258EF00789112 /* ViewController1.m */,
+				185B573B1AAEE0B900CBB047 /* File */,
+				18996BE41A0B167600C8B963 /* Views */,
 				1834D42B1A02098700789112 /* Main.storyboard */,
 				1834D42E1A02098700789112 /* Images.xcassets */,
 				1834D4301A02098700789112 /* LaunchScreen.xib */,
@@ -117,6 +126,13 @@
 				1834D43C1A02098700789112 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18996BE41A0B167600C8B963 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185B573C1AAEE0B900CBB047 /* File in Resources */,
 				1834D42D1A02098700789112 /* Main.storyboard in Resources */,
 				1834D4321A02098700789112 /* LaunchScreen.xib in Resources */,
 				1834D42F1A02098700789112 /* Images.xcassets in Resources */,
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1834D4811A0258EF00789112 /* ViewController1.m in Sources */,
 				1834D42A1A02098700789112 /* ViewController.m in Sources */,
 				1834D4271A02098700789112 /* AppDelegate.m in Sources */,
 				1834D4241A02098700789112 /* main.m in Sources */,
@@ -412,6 +430,7 @@
 				1834D4431A02098700789112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1834D4441A02098700789112 /* Build configuration list for PBXNativeTarget "UITextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				1834D4461A02098700789112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
